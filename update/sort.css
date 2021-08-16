@@ -1,0 +1,205 @@
+*{
+    transition: .5s;
+}
+*:not(code){
+    font-family: "source code pro";
+}
+html{
+    display: -webkit-box-flex;
+}
+body{
+	margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+#img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(img/math.jpg);
+    height: 100%;
+    background-position: center;
+    width: 100%;
+    z-index: -3;
+    background-size: cover;
+}
+
+div{
+    display: inline-block;
+    height: 96vh;
+}
+#h1{
+    font-size: calc( 2vw + 1em);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 1.5s;
+}
+#two{
+    height: 3em;
+    left: 0;
+    position: inherit;
+    background: black;
+}
+#hix{
+    background-color: rgba(218, 218, 218, 0.76);
+    width: 100vw;
+    height: fit-content;
+    left: 0;
+    cursor: pointer;
+	top: -10em;
+    text-align: center;
+    transition: .7s;
+    box-shadow: black 0 0 18px;
+}
+#hide{
+    width: 0;
+    padding-left: 1em;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 0 10px 0 0;
+    height: 0;
+    color: rgb(228, 228, 228);
+    overflow: unset;
+    overflow-x: hidden;
+    margin-top: 3.5em;
+}
+#hide table{
+    display: inline-block;
+    vertical-align: top;
+    width: fit-content;
+    padding: .7em;
+}
+#hidex{
+    margin-top: -.5em;
+    height: 0;
+    float: left;
+    background: rgba(0, 0, 0, 0.884);
+    width: 0;
+    position: fixed;
+    left: 0;
+    position: fixed;
+    top: 5px;
+}
+
+#b{
+    margin-top: -.1px;
+    width: 0;
+    background: black;
+    color: wheat;
+   display: none;
+   text-align: center;
+   left: 10px;
+   font-size: 1.7em;
+}
+#b, #cross{
+    position: inherit
+}
+#cross{
+    left: 11.4em;
+    display: none;
+    padding: .3em;
+    background-color: rgb(255, 0, 0);
+}
+#d2{
+    width: auto;
+    margin-left: 1em;
+    text-align: center;
+    display: block;
+    position: inherit;
+}
+#dem{
+    margin-right: 1em;
+    -webkit-box-flex: 1;
+    height: 0;
+    width: 35vw;
+    overflow: unset;
+    overflow-x: hidden;
+}
+#demo{
+    overflow: unset;
+    overflow-x: hidden;
+    height: 0;
+    width: 35vw;
+}
+#dem,#demo{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(223, 223, 223);
+}
+
+#del{
+    width: 0;
+    display: none;
+    padding: .5em;
+    background-color: red;
+    border: 0;
+}
+#four{
+    margin-top: 1em;
+    height: auto;
+    display: grid;
+    left: 20%;
+    width: 60vw;
+    position: inherit;
+    text-align: center;
+    align-items: center;
+}
+
+.operators{
+    text-align: center;
+    padding:0em;
+    border: 0;
+    margin-top: .5em;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .5);
+    width: 0;
+}
+input{
+    cursor: text;
+    padding:0em;
+    border: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 23vw;
+}
+input, button{
+	box-shadow: black 2px 2px 10px;
+}
+
+.operators, input{
+    font-size: 0;
+}
+#but{
+    border-radius: 0 0 0 10px;
+}
+#but2{
+    border-radius: 0 0 10px 0;
+}
+#in{
+    border-radius: 10px 0 0 0;
+}
+#in1{
+    border-radius: 0 10px 0 0;
+}
+
+#sec{
+    width: 65vw;
+}
+h1, #cross, #b, #del{
+    cursor: pointer;
+}
+table{
+    width: 33vw;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+td{
+    background-color: rgba(19, 149, 201, 0.7); 
+    padding: .3em;
+}
+tr:nth-of-type(even){
+    background-color: rgba(20, 74, 95, 0.7); 
+
+}
+td:not(:first-of-type){
+    text-align: right;
+}
