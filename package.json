@@ -1,0 +1,20 @@
+{
+  "name": "result",
+  "version": "1.0.0",
+  "description": "Used for basic result computation \r <div>\r I use this App to sort items\r </div>",
+  "main": "sort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pro-me0/result.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pro-me0/result/issues"
+  },
+  "homepage": "https://github.com/pro-me0/result#readme"
+}
