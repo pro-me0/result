@@ -6,6 +6,7 @@ app.set('port', process.env.PORT || 3000);
 app.use(express.static("./"));
 
 app.get('/', (req, res) => {
+	console.log('new request')
 	res.sendFile('sort.html', {root: './'});
 });
 
