@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pro-me0/result/issues"
   },
-  "homepage": "https://github.com/pro-me0/result#readme"
+  "homepage": "https://github.com/pro-me0/result#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
