@@ -4,7 +4,8 @@
   "description": "Used for basic result computation \r <div>\r I use this App to sort items\r </div>",
   "main": "sort.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
